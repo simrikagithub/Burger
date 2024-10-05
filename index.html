@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assests/css/style.css">
+
+      <title>Responsive burger website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <div>
+                  <img src="assests/image/logo-burger.svg" alt="image">
+               </div>
+
+               Burger
+            </a>
+            <div class="nav__menu" id="nav-menu"> 
+               <ul class="nav__list">
+                  <li>
+                   <a href="#home" class="nav__link">Home</a>
+                  </li>
+                  <li>
+                     <a href="#recipe" class="nav__link">Recipe</a>
+                    </li>
+                    <li>
+                     <a href="#popular" class="nav__link">Popular</a>
+                    </li>
+                    <li>
+                     <a href="#delivery" class="nav__link">Delivery</a>
+                    </li>
+                    <li>
+                     <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+               </ul>
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-2-fill"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+           <div class="home__container container grid">
+            <div class="home__data">
+               <h1 class="home__title">Love Every <br> Burger</h1>
+           <p class="home__description">
+            We serve the best burgers on the planet, 
+paving the way for cooking and preparing 
+hot, delicious burgers.
+
+           </p>
+           <a href="#popular" class="button">Bite Now</a>
+           <img src="assests/image/sticker-potatoes.svg" alt="image" class="home__stickers">
+            </div>
+
+            <div class="home__images">
+               <img src="assests/image/home-burger.png" alt="image" class="home__images">
+               <img src="assests/image/home-dish.png" alt="image" class="home__dish">
+               <img src="assests/image/home-potato.png" alt="image" class="home__ingredient home__potato-1">
+               <img src="assests/image/home-potato.png" alt="image" class="home__ingredient home__potato-2">
+               <img src="assests/image/home-tomato.png" alt="image" class="home__ingredient home__tomato-1">
+               <img src="assests/image/home-tomato.png" alt="image" class="home__ingredient home__tomato-2">
+               <img src="assests/image/home-lettuce.png" alt="image" class="home__ingredient home__lettuce-1">
+               <img src="assests/image/home-lettuce.png" alt="image" class="home__ingredient home__lettuce-2">
+            </div>
+           </div>
+         </section>
+
+         <!--==================== RECIPE ====================-->
+         <section class="recipe section" id="recipe">
+            <h2 class="section__title">Our Secret Recipe</h2>
+            <div class="recipe__container container grid">
+               <div class="recipe__image">
+                  <img src="assests/image/recipe-burger.png" alt="image" class="recipe__img">
+               </div>
+
+               <div class="recipe__data">
+                  <div class="recipe__card">
+                     <div class="recipe__box">
+                        <img src="assests/image/recipe-bread.png" alt="image">
+                     </div>
+                     <div>
+                        <h3 class="recipe__title">Bread</h3>
+                        <p class="recipe__description">Fresh bread,baked to perfection.</p>
+                     </div>
+                  </div>
+
+                  <div class="recipe__card">
+                     <div class="recipe__box">
+                        <img src="assests/image/recipe-cheese.png" alt="image">
+                     </div>
+                     <div>
+                        <h3 class="recipe__title">Cheese</h3>
+                        <p class="recipe__description">Cheese for a fantastic and healthy future.</p>
+                     </div>
+                  </div>
+
+                  <div class="recipe__card">
+                     <div class="recipe__box">
+                        <img src="assests/image/recipe-meat.png" alt="image">
+                     </div>
+                     <div>
+                        <h3 class="recipe__title">Meat</h3>
+                        <p class="recipe__description">100% pure beef,big and meaty</p>
+                     </div>
+                  </div>
+
+
+                  <div class="recipe__card">
+                     <div class="recipe__box">
+                        <img src="assests/image/recipe-vegetable.png" alt="image">
+                     </div>
+                     <div>
+                        <h3 class="recipe__title">Vegetables</h3>
+                        <p class="recipe__description">Vegetables full of the essence of nature and organic.</p>
+                     </div>
+
+
+                  </div>
+                  <div class="recipe__card">
+                     <div class="recipe__box">
+                        <img src="assests/image/recipe-sauces.png" alt="image">
+                     </div>
+                     <div>
+                        <h3 class="recipe__title">Sauces</h3>
+                        <p class="recipe__description">Fresh sauces,delicious for the palate.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== POPULAR ====================-->
+         <section class="popular section" id="popular">
+            <h2 class="section__title">Most Devoured <br> Burger</h2>
+            <div class="popular__container container grid">
+
+               <article class="popular__card">
+                  <img src="assests/image/popular-burger-chicken.png" alt="image" class="popular__img">
+               <h2 class="popular__title">Chicken<br>Burger</h2>
+               
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+               </article>
+
+               <article class="popular__card">
+                  <img src="assests/image/popular-burger-meat.png" alt="image" class="popular__img">
+               <h2 class="popular__title">Meat<br>Burger</h2>
+               
+
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+               </article>
+               
+               <article class="popular__card">
+                  <img src="assests/image/popular-burger-grill.png" alt="image" class="popular__img">
+               <h2 class="popular__title">Grill<br>Burger</h2>
+               
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+               </article>
+               
+               <article class="popular__card">
+                  <img src="assests/image/popular-burger-classic.png" alt="image" class="popular__img">
+               <h2 class="popular__title">Classic <br> Burger</h2>
+               
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+               </article>
+               
+               <article class="popular__card">
+                  <img src="assests/image/popular-burger-big.png" alt="image" class="popular__img">
+               <h2 class="popular__title">Big<br>Burger</h2>
+               
+               <button class="popular__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+               </button>
+               </article>
+               
+            </div>
+         </section>
+
+         <!--==================== DELIVERY ====================-->
+         <section class="delivery section" id="delivery">
+            <div class="delivery__container container grid">
+               <div class="delivery__data">
+                  <h2 class="section__title">Fast Delivery</h2>
+                  <p class="delivery__description">
+                     Place to order for your favourite burger
+                     and we will deliver it to your door in a minutes,
+                     get in touch and dont leave hungry
+                  </p>
+                  <a href="#cintact" class="button">Contact Now</a>
+                  <img src="assests/image/sticker-glass.svg" alt="image" class="delivery__sticker">
+               </div>
+               <img src="assests/image/delivery-burger.png" alt="image" class="delivery__stickers">
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+               <h2 class="section__title">Contact Now</h2>
+               <div class="contact__content grid">
+                  <div class="contact__data grid">
+         <div>
+                  <h3 class="contact__title">Write Us</h3>
+
+                  <div class="contact__social">
+                     <a href="https://static.whatsapp.net/rsrc.php/v3/yR/r/y8-PTBaP90a.png" target="_blank">
+                    <i class="ri-whatsapp-fill"></i>
+                     </a>
+
+                     <a href="https://scontent.xx.fbcdn.net/v/t39.30808-1/438058654_983956586667237_5581186698358282688_n.jpg?stp=c0.38.160.84a_dst-jpg_p160x160&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_ohc=1MglNhj0zpMQ7kNvgGa5A1t&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=00_AYDKAggKUt9aWa1xU1NoPlrSYwW59sUYheTzBoVwERRdSQ&oe=66B3B337" target="_blank">
+                        <i class="ri-facebook-circle-fill"></i>
+                     </a>
+
+                     <a href="https://scontent.cdninstagram.com/v/t51.2885-19/280650662_5222667467772169_4130973662782821945_n.jpg?stp=dst-jpg_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=fcb8ef&_nc_ohc=mTpkHFZD4msQ7kNvgE2sLyH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=00_AYAJcDvdspBd10UD9NcuinW9Dxoa8AaQg-ETQD6U9qiKRA&oe=66B3BF5D&ig_cache_key=MzkzMDIwMTMxOTU%3D.2-ccb7-5" target="_blank">
+                        <i class="ri-instagram-fill"></i>
+                     </a>
+
+                     <a href="https://www.linkedin.com/help/linkedin/?trk=p_settings_helpcenter_globalnav_androidwww.linkedin.com" target="_blank">
+                        <i class="ri-linkedin-fill"></i>
+                     </a>
+                  </div>
+                 </div>
+                 <div>
+                       <h3 class="contact__title">Call Us and Order</h3>
+                       <address class="contact__info">
+00-344758<br>
+9817865814
+                       </address>
+                 </div>
+
+                 <div>
+                  <h3 class="contact__title">Find us here</h3>
+                  <address class="contact__info">
+                   Byasi-Bhaktapur
+                  </address>
+            </div>
+
+                  </div>
+                  <div class="contact__image">
+<img src="assests/image/contact-man.png" alt="image" class="contact__img">
+                     
+                  </div>
+               </div>
+               </div>
+               <img src="assests/image/sticker-burger.svg" alt="image" class="contact__sticker-1">
+               <img src="assests/image/sticker-soda.svg" alt="image" class="contact__sticker-2">
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+<div class="footor__container container grid">
+   <a href="#" class="footor__logo">Burger</a>
+   <div class="footor__container grid">
+      <a href="#" class="footor__link">Terms & Agreement</a>
+      <a href="#" class="footor__link">Privacy Policy</a>
+
+      <div class="footor__social">
+         <a href="https://www.facebook.com" target="_blank">
+            <i class="ri-facebook-circle-fill"></i>
+         </a>
+         
+         <a href="https://www.instagram.com" target="_blank">
+            <i class="ri-instagram-fill"></i>
+         </a>
+
+         <a href="https://www.twitter.com" target="_blank">
+            <i class="ri-twitter-x-fill"></i>
+         </a>
+
+      </div>
+   </div>
+</div>
+
+<span class="footor__copy">
+   All Rights Reserved By Bedimcode
+</span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assests/js/scrollreveal.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assests/js/main.js"></script>
+   </body>
+</html>
