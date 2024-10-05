@@ -1,2 +1,3 @@
 # Burger
-This is burger website.
+Responsive Burger Website.
+It is design using html css and javascprit.
